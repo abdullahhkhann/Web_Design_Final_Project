@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!-- Final Project login/Sign up page HTML code -->
+<!-- Done by Muhammad Abdullah Khan 1075677 -->
+
+<html>
+
+  <head>
+    <title>Login/Sign up</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "SignUpCSS.css">
+  </head>
+
+  <body style = "background-color: #9DCCEA;">
+
+    <marquee>
+      <img src = "Valhalla.png" height = "130" width = "180" alt = "Logo">
+    </marquee>
+
+    <div>
+
+      <h3 align = "center" style = "font-size: 20px;">SIGN UP</h3>
+
+      <hr>
+
+      <form class = "signup">
+        <table cellpadding = "10">
+          <tr>
+            <td><label>First Name:</label></td>
+            <td><input type = "text" size = "30" id = "Firstname"></td>
+          </tr>
+
+          <tr>
+            <td><label>Last Name:</label></td>
+            <td><input type = "text" size = "30" id = "Lastname"></td>
+          </tr>
+
+          <tr>
+            <td align = "center"><label>Age:</label></td>
+            <td><input type = "text" size = "30" id = "Age"></td>
+          </tr>
+
+          <tr>
+            <td align = "center">Gender:</td>
+            <td>
+              <label>Male</label>
+              <input type = "radio" name = "gender">
+              <label>Female</label>
+              <input type = "radio" name = "gender">
+              <label>Other:</label>
+              <input type = "radio" name = "gender">
+            </td>
+          </tr>
+
+          <tr>
+            <td align = "center"><input type = "button" value = "Sign Up" onclick = "generator()"></td>
+            <td><input type = "reset" value = "Clear"></td>
+          </tr>
+        </table>
+      </form>
+
+<!-- JavaScript Code for the form to generate username and password -->
+
+      <script type="text/javascript">
+
+        function generator() {
+          var frstname = document.getElementById("Firstname").value;
+          var lstname = document.getElementById("Lastname").value;
+          var age = parseInt(document.getElementById("Age").value);
+
+          var username = "Your auto-generated username is: " + "<b>" + lstname + "." + frstname + "_" + age + "</b>";
+          var password = "Your auto-generated password is: " + "<b>" + age + frstname + lstname + "_" + "</b>";
+
+          document.getElementById("username").innerHTML = username;
+          document.getElementById("password").innerHTML = password;
+        }
+        
+      </script>
+
+<!-- JavaScript Code end value generated -->
+
+      <table class = "generate" cellpadding = "5">
+        <tr>
+          <td id = "username"></td>
+        </tr>
+
+        <tr>
+          <td id = "password"></td>
+        </tr>
+      </table>
+
+      <h3 align = "center" style = "font-size: 20px;">LOG IN</h3>
+
+      <hr>
+
+      <form class = "signup">
+        <table cellpadding = "10">
+          <tr>
+            <td><label>Username:</label></td>
+            <td><input type = "text" size = "30"></td>
+          </tr>
+
+          <tr>
+            <td><label>Password:</label></td>
+            <td><input type = "password" size = "30"></td>
+          </tr>
+
+          <tr>
+            <td align = "center"><input type = "button" value = "Log In"></td>
+            <td><input type = "reset" value = "Clear"></td>
+          </tr>
+        </table>
+      </form>
+
+
+    </div>
+
+  </body>
+
+</html>

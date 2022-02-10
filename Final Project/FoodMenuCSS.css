@@ -1,0 +1,38 @@
+/* Food Menu page CSS code */
+/* Done by Hussein Ali Jameel 1074817, edited by Muhammad Abdullah Khan 1075677 */
+
+body{
+  background-image: url("food1.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+table, th, td{
+  border: solid 4px;
+  border-collapse: collapse;
+  position:relative;
+  left: 200px;
+  margin-top: 50px;
+}
+table{
+  width: 50%;
+}
+th, td{
+  padding: 15px;
+  background-color: pink;
+  box-shadow: 5px 10px 18px purple, 5px 5px 8px blue, 10px 10px 8px red;
+}
+h1.class{
+  text-align: center;
+  text-shadow: 8px 8px 8px red, 8px 8px 8px blue, 8px 8px 8px black;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  border: 3px solid black;
+  background-color: #3387FF;
+  padding: 10px;
+  margin: 100px 100px 100px 660px;
+  text-indent: 2px;
+  width: 200px;
+}
+
+/* End of Food Menu CSS code file */

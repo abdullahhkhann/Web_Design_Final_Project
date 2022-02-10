@@ -1,0 +1,35 @@
+/* Done by Hussein Ali Jameel 1074817 edited by Muhammad Abdullah Khan 1075677*/
+
+
+body{
+  background-image: url("About1.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+table, th, td{
+    border: solid 4px;
+}
+table{
+  width: auto;
+  border: 4px solid black;
+  border-collapse: collapse;
+  position: relative;
+  box-shadow: 5px 10px 18px black;
+}
+div{
+  margin-left: 400px;
+  margin-top: 300px;
+}
+th, td{
+  border: 2px solid black;
+  padding: 15px;
+  background-color: brown;
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-style: oblique;
+}

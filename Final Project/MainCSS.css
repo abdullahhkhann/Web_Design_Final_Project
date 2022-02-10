@@ -1,0 +1,262 @@
+/* Main page CSS code */
+/* Done by Muhammad Abdullah Khan 1075677 */
+
+
+/* Internet Cafe Heading */
+h3{
+  text-align: right;
+  color: grey;
+  font-size: 27px;
+  font-family: Comic Sans MS;
+  margin-top: -125px;
+  }
+/* Class to align cafe under internet */
+.odd{
+    text-align: right;
+    color: grey;
+    font-size: 27px;
+    font-family: Comic Sans MS;
+    margin-top: -30px;
+    margin-right: 35px;
+    }
+/* Vertical Border on the left*/
+div{
+    position: absolute;
+    display: block;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 1px;
+    padding: 30px 50px ;
+    border-left: 3px solid purple;
+    margin-top: 0px;
+    margin-bottom: -300px;
+    margin-right: 0px;
+    margin-left: 325px;
+    }
+/* Main logo heading */
+div h1{
+      font-size: 35px;
+      font-family: Comic Sans MS;
+      font-style: italic;
+      color: grey;
+      }
+/* Main logo image */
+div img{
+        height: 200px;
+        width: 250px;
+        margin-top: -145px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        }
+/* Class for search bar */
+.searchbar{
+          float: left;
+          margin-top: 18px;
+          margin-left: -350px;
+          border: 3px solid black;
+          font-size: 13px;
+          font-family: Comic Sans MS;
+          }
+/* Navigation bar unordered list */
+div ul{
+      text-align: center;
+      list-style-type: none;
+      margin: 45px;
+      margin-left: 140px;
+      color: grey;
+      font-family: Comic Sans MS;
+      }
+/* Excpetional class for partition */
+.excep{
+      color: black;
+      border-bottom: none;
+      font-weight: bolder;
+      font-size: 18px;
+      }
+/* List elements for navigation bar */
+div li{
+      display: inline;
+      float: left;
+      padding: 1px;
+      color : grey;
+      font-size: 15px;
+      border-bottom: 1px solid black;
+      border-bottom-width: thin;
+      margin-right: 10px;
+      }
+/* Removing the decoration from the hyperlink */
+a{
+  text-decoration: none;
+  color: grey;
+}
+/* Change decoration when mouse is hovered over */
+a:hover{
+  color: blue;
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: oblique;
+}
+/* Horizontal border */
+div hr{
+      border-width: thin;
+      background-color: purple;
+      height: 2px;
+      margin-top: 75px;
+      margin-left: -52px;
+      margin-right: -50px;
+      }
+/* Paragraph class for main box#1 */
+p.main1{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        text-indent: 12px;
+        color: white;
+        box-shadow: 1px 1px inset;
+        width: 790px;
+        margin-left: 150px;
+        margin-top: 50px;
+      }
+/* Paragraph Class for text left side of the border */
+p.left{
+       border: 3px solid black;
+       background-color: #879DEF;
+       padding: 1px;
+       margin: 1px 1px;
+       font-family: Comic Sans MS;
+       text-indent: 15px;
+       color: black;
+       box-shadow: 3px 3px black;
+       width: 160px;
+       margin-left: -325px;
+       margin-top: -50px;
+       font-style: italic;
+       font-weight: bold;
+      }
+/* Paragraph class for main box#2 */
+p.main2{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        text-indent: 12px;
+        color: white;
+        box-shadow: 1px 1px inset;
+        width: 400px;
+        margin-left: 350px;
+        margin-top: -5px;
+        text-align: center;
+      }
+/* Paragraph class for main box#3 */
+p.main3{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        text-indent: 12px;
+        color: white;
+        box-shadow: 1px 1px inset;
+        width: 490px;
+        margin-left: 300px;
+        margin-top: -40px;
+        }
+/* Paragraph class for main box#4 */
+p.main4{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        text-indent: 12px;
+        color: white;
+        box-shadow: 1px 1px inset;
+        width: 900px;
+        margin-left: 95px;
+        margin-top: -75px;
+       }
+/* Paragraph class for main box#5 */
+p.main5{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        text-indent: 12px;
+        color: white;
+        box-shadow: 1px 1px inset;
+        width: 770px;
+        margin-left: 175px;
+        margin-top: -15px;
+        }
+/* Paragraph class for main box#6 */
+p.main6{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        text-indent: 12px;
+        color: white;
+        box-shadow: 1px 1px inset;
+        width: 600px;
+        margin-left: 270px;
+        margin-top: -45px;
+       }
+/* Paragraph class for box at the end */
+p.box{
+      border: 3px solid black;
+      background-color: #879DEF;
+      padding: 50px;
+      margin: 1px 1px;
+      font-family: Comic Sans MS;
+      text-indent: 5px;
+      font-size: 13px;
+      color: black;
+      box-shadow: 3px 3px black;
+      width: 500px;
+      margin-left: 0px;
+      margin-top: 0px;
+      font-weight: bolder;
+      font-style: italic;
+      }
+/* Paragraph class for concluding box */
+p.bottom{
+        border: 3px solid black;
+        background-color: #3387FF;
+        padding: 1px;
+        margin: 50px 50px;
+        font-family: Comic Sans MS;
+        font-weight: bold;
+        text-indent: 2px;
+        color: white;
+        box-shadow: 5px 5px 8px blue, 10px 10px 8px purple, 15px 15px 8px pink;
+        width: 375px;
+        margin-left: 110px;
+        margin-top: 125px;
+       }
+/* Special class for map placement and size */
+.map{
+     width: 250px;
+     height: 250px;
+     margin-left: 800px;
+     margin-top: -800px;
+     margin-bottom: 100px;
+     }
+/* Paragraph class for final message under map */
+p.end{
+      font-family: Comic Sans MS;
+      color: purple;
+      font-size: 20px;
+      font-weight: bold;
+      }
+
+
+/* End of Main CSS code file */

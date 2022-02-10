@@ -1,0 +1,39 @@
+/* Specs page CSS code */
+/* Done by Hussein Ali Jameel 1074817 */
+
+
+body{
+  background-image: url("Case1.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h2{
+  text-align: center;
+  font-style: oblique;
+  position: relative;
+  top: 210px;
+  left: 90px;
+}
+div{
+  border: 1px solid gray;
+  width: 900px;
+  margin-top: 150px;
+  margin-left: 350px;
+  margin-bottom: 30px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: powderblue;
+  box-shadow: 5px 10px 18px #888888;
+}
+ol{
+  position: relative;
+  left: 40px;
+  margin-top: 0px;
+}
+
+
+/* End of Specs page CSS code file */

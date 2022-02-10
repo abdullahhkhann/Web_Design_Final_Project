@@ -1,0 +1,46 @@
+/* About page CSS code */
+/* Done by Hussein Ali Jameel 1074817, edited by Muhammad Abdullah Khan 1075677 */
+
+body{
+  background-image: url("about2.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  position: relative;
+  top: 200px;
+  left: 30px;
+  font-style: italic;
+  text-shadow: 1px 1px purple;
+}
+div{
+  border: 1px solid gray;
+  width: 700px;
+  margin-top: 150px;
+  margin-left: 400px;
+  margin-bottom: 30px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: silver;
+  box-shadow: 8px 12px 18px black;
+}
+div p{
+  margin-top: 50px;
+  text-indent: 25px;
+  font-size: 14px;
+  font-style: oblique;
+}
+img{
+  height: 50px;
+  width: 50px;
+  margin-left: 575px;
+  margin-top: -10px;
+}
+
+
+/* End of About page CSS code file */
